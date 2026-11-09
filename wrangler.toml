@@ -13,4 +13,4 @@ binding = "BUCKET"   # 这个不能动
 bucket_name = "aiovtue-blog"   # 名字不一样也要改，最好一样
 
 [vars]
-SITE_URL = "https://aiovtue-blog-a30.pages.dev"
+SITE_URL = "https://ax.luckypoem.workers.dev"

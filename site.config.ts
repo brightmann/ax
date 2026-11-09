@@ -1,7 +1,7 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://aiovtue-blog-a30.pages.dev',
+  url: 'https://ax.luckypoem.workers.dev',
   lang: 'zh-CN',
   title: 'AIOVTUE',
   subtitle: '雪',
