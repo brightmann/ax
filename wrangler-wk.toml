@@ -1,0 +1,23 @@
+name = "ax-wk"
+main = "worker.ts"
+compatibility_date = "2026-11-08"
+compatibility_flags = ["nodejs_compat"]
+
+# Valaxy static build output, served as Worker static assets.
+# Shares the same D1 + R2 as the Pages site (aiovtue-blog), so both
+# sites serve the same posts.
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "aiovtue-blog"
+database_id = "90dca280-522e-48e3-a6cb-d84a7de700f1"
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "aiovtue-blog"
+
+[vars]
+SITE_URL = "https://ax-wk.luckypoem.workers.dev"
