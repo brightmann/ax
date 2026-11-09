@@ -31,13 +31,18 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@unhead/schema-org": "2.1.15",
+    "@vueuse/core": "14.3.0",
     "echarts": "4.9.0",
     "fuse.js": "^7.4.1",
     "lxgw-wenkai-screen-webfont": "1.7.0",
     "markdown-it": "^14.2.0",
+    "markdown-it-anchor": "9.2.0",
+    "markdown-it-task-lists": "2.1.1",
     "pixi-live2d-display": "^0.4.0",
     "pixi.js": "^8.19.0",
     "twikoo": "1.6.44",
+    "typeit": "8.8.7",
     "valaxy": "0.28.10",
     "valaxy-addon-hitokoto": "^0.0.1",
     "valaxy-addon-live2d": "^0.4.0",
@@ -48,6 +53,7 @@
     "valaxy-theme-sakura": "latest",
     "vditor": "^3.11.2",
     "vue": "^3.5.38",
+    "vue-i18n": "11.4.4",
     "vue-router": "^5.1.0",
     "yaml": "^2.9.0"
   },
