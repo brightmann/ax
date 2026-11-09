@@ -144,11 +144,6 @@ export default defineValaxyConfig({
      }  
     },
 
-    postList: {
-      defaultImage: '/default-cover.png', //文章默认封面
-    },
-
-    
     sidebar: [...mainNavItems],
     sidebarOptions: {
       position: 'left',
