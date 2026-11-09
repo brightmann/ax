@@ -214,7 +214,7 @@ export default defineValaxyConfig({
  
     pagination: {
       type: 'standard',
-      itemsPerPage: 10,   //分页设置
+      itemsPerPage: 5,   //分页设置
     },
  
     
