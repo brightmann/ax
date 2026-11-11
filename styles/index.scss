@@ -422,11 +422,17 @@ html.image-gallery-open {
 /* 首页文章卡片：内容全部居中（标题、日期、分类、摘要） */
 .sakura-post-list .sakura-post-card,
 .sakura-post-list .sakura-post-card.right {
-  text-align: center;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+.sakura-post-list .sakura-post-card .post-card-content:not(.has-cover) {
+  width: 100% !important;
+  text-align: center !important;
 }
 
 .sakura-post-list .sakura-post-card .sakura-post-card-info {
-  text-align: center;
+  text-align: center !important;
 }
 
 
