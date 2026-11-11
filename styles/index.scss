@@ -419,4 +419,14 @@ html.image-gallery-open {
   gap: 1rem;
 }
 
+/* 首页文章卡片：内容全部居中（标题、日期、分类、摘要） */
+.sakura-post-list .sakura-post-card,
+.sakura-post-list .sakura-post-card.right {
+  text-align: center;
+}
+
+.sakura-post-list .sakura-post-card .sakura-post-card-info {
+  text-align: center;
+}
+
 
