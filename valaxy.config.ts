@@ -158,16 +158,7 @@ export default defineValaxyConfig({
     hero: {
       title: 'AIOVTUE',   //首页中间的文字
       motto: '雨是神的烟花',
-      urls: [
-      '/hero/tt3.png', 
-      '/hero/hero-1.jpg',
-      '/hero/hero-2.png',
-      '/hero/hero-3.jpg',
-      '/hero/hero-1.mp4',
-      '/hero/hero-2.mp4',
-      '/hero/tt1.png', 
-      '/hero/tt2.png', 
-      ],
+      urls: [],
       randomUrls: true,
       // 自定义视频播放器
       playerUrl: '/hero/player.mp4',
